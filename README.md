@@ -36,3 +36,12 @@ As a demo application, this project uses mock credentials. For production implem
 
 ## 🚀 Polaris BNPL System
 User -> Shopify Store -> Polaris Checkout -> `polaris-core` settles on Creditcoin/Sepolia via `polaris-protocol`.
+
+---
+
+## 🔒 Privacy-Preserving BNPL (Fhenix FHEVM)
+The demo shopping application utilizes Fhenix Fully Homomorphic Encryption (FHEVM) to ensure that:
+* The customer's exact debt position remains confidential.
+* Collateral verification is performed homomorphically, ensuring liquidations are shielded from front-running and predatory targeting.
+* Credit score updates are calculated privately on-chain under `ScoreManager`.
+
